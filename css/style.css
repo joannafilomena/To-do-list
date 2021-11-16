@@ -1,3 +1,9 @@
-.bin {
-    color:aqua;
+.undone {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.done {
+    background-color: green;
 }
