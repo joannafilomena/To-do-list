@@ -15,7 +15,7 @@ addTaskButton.addEventListener("click", (event) => {
 
     products.forEach((product) => {
 
-        list.innerHTML += "<li><button class=\"undone\"></button>" + product + "<button class=\"bin\">Usuń</buton></li>";
+        list.innerHTML += "<li>" + product + "<button class=\"undone\"></button><button class=\"bin\"></buton></li>";
 
     });
 

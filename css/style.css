@@ -1,9 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+    margin: auto;
+    text-align: center;
+    background-color:rgb(42, 25, 63);
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 5px;
+    vertical-align: center;
+}
+
+button {
+    margin: 5px;
+    border: none;
+}
+
+
 .undone {
     width: 20px;
     height: 20px;
-    background-color: red;
+    background-color: rgb(255, 85, 85);
 }
 
 .done {
     background-color: green;
+}
+
+.bin {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/delete.png");
+    background-size: cover;
 }
